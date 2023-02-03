@@ -1,7 +1,7 @@
 import { BotConfig } from './structures/types'; 
 
 export const config: BotConfig = {
-    groupId: 0,
+    groupId: 5458485,
     slashCommands: true,
     legacyCommands: {
         enabled: true,
@@ -56,7 +56,7 @@ export const config: BotConfig = {
         bypassRoleId: '',
     },
     activity: {
-        enabled: false,
+        enabled: true,
         type: 'WATCHING',
         value: 'for commands.',
     },
